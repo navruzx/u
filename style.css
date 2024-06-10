@@ -1,0 +1,24 @@
+.container {
+    background-color: lightgrey;
+    display: grid;
+    height: 160px;
+    width: 500px;
+    grid-template-columns: auto auto auto ;
+ gap: 10PX;
+ padding: 10px;
+ 
+}
+.box {
+    background-color: greenyellow;
+    
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+
+}
+.boxc {
+     grid-column: 2/4;
+     grid-row: 2/4 ;
+}
